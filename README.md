@@ -1,1 +1,0 @@
-# jorgeluis06.github.io
