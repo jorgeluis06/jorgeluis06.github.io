@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Página de autenticación del Sistema de Gestión de Resultados de Exámenes Médicos perteneciente a la compañía SaludPrimero S.A.">
+	<meta name="keywords" content="Muestras médicas,exámen médico,centro médico">
+	<meta name="author" content="Iván Mosquera">
+	<title>Bienvenido a SaludPrimero S.A. - Inicia sesión</title>
+	<link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="stylesheets/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<style>
+		body {
+		    background-image: url("Imagenes/ecocardiografia.jpg");
+		    background-repeat: no-repeat;
+		    background-size: 100% 100%; 
+		    background-attachment: fixed;
+		    font-family: 'Roboto', sans-serif;
+		    /*font-family: 'Oswald', sans-serif;*/
+		    -webkit-transition: background-image 2s ease-in-out;
+			transition: background-image 2s ease-in-out;
+
+		}
+		.container-fluid{
+			max-width: 60%;
+			margin-top: 8%
+		}
+		.img-circle{
+			width: 50px;
+		}
+		#titulo h1{
+    		font-size: 750%;
+    		color: #428bca;
+		}
+		#principal{
+			margin-top: 80px;
+		}
+		#principal p{
+			color: ;
+			font-size: 180%;
+			font-weight: bold;
+		}
+		#formulario{
+			border: 1px solid gray;
+			background-color: white;
+		}
+		#formulario h3{
+			margin-bottom: 1px;
+		}
+		.btn-primary{
+			background-color: #428bca;
+		}
+	</style>
+</head>
+<body>
+	<div class="container-fluid">
+	  <div class="row">
+	    <div class="col-md-12" id="titulo">
+	    	<h1 class="text-center">SaludPrimero S.A.</h1>
+	    </div>	
+	  </div>
+
+	  <div class="row" id="principal">
+	    <div class="col-xs-12 col-sm-12 col-md-6">
+	    	<p>Nos esmeramos para ofrecerles asistencia médica de calidad y atención personalizada para cada persona. Proporcionamos las mejores prestaciones y los últimos avances técnicos en las principales especialidades médicas.</p>
+	    </div>
+		<div class="col-md-offset-1 col-xs-12 col-sm-12 col-md-5" id="formulario">
+	    	<form class="form-horizontal" method="post" action="index.html"  >
+	    	  <div class="form-group">
+			    <div class="col-sm-12">
+			      <h3 class="text-center">Inicio de sesión</h3>
+			    </div>
+			  </div>
+			  <hr />
+			  <div class="form-group">
+			    <div class="col-sm-12">
+				  <div class="input-group">
+					  <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-user fa-lg" aria-hidden="true"></i></span>
+					  <input type="text" class="form-control" id="inputUser3" placeholder="Usuario" aria-describedby="sizing-addon1" required>
+				  </div>
+				 </div>
+			  </div>
+
+			  <div class="form-group">
+			    <div class="col-sm-12">
+				  <div class="input-group">
+					  <span class="input-group-addon" id="sizing-addon2"><i class="fa fa-key" aria-hidden="true"></i></span>
+					  <input type="password" class="form-control" id="inputPassword3" placeholder="Contraseña" aria-describedby="sizing-addon2" required>
+				  </div>
+				</div>
+			   </div>
+
+			  <div class="form-group">
+			    <div class="col-sm-12">
+			      <button type="submit" class="btn btn-primary btn-lg btn-block">Iniciar sesión</button>
+			    </div>
+			  </div>
+			</form>
+	    </div>
+	  </div>
+
+
+
+
+
+
+	</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="javascripts/bootstrap.min.js"></script>
+    <script>
+
+
+
+		$(document).ready(function () {
+
+				cambiarBackground();
+				inputFocus();
+
+
+		});
+
+
+		function cambiarBackground(){
+		    var body = $('body');
+		    var backgrounds = [
+		      'url("Imagenes/esfuerzo.jpg")', 
+		      'url("Imagenes/sonografia.jpg")',
+		      'url("Imagenes/ecocardiografia.jpg")',
+		      'url("Imagenes/tomografia1.jpg")'];
+		    var current = 0;
+
+		    function nextBackground() {
+		        body.css(
+		            'background-image',
+		        backgrounds[current = ++current % backgrounds.length]);
+
+		        setTimeout(nextBackground, 5000);
+		    }
+		    setTimeout(nextBackground, 5000);
+		    body.css('background-image', backgrounds[0]);
+		};
+
+
+		function inputFocus(){
+			$("#sizing-addon1").click(function(){
+				$("#inputUser3").focus();
+			});
+
+			$("#sizing-addon2").click(function(){
+				$("#inputPassword3").focus();
+			});
+			
+		};
+		
+	</script>
+</body>
+</html>
+
+
+	
+
+
