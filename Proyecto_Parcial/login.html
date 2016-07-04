@@ -5,45 +5,72 @@
 	<meta name="description" content="Página de autenticación del Sistema de Gestión de Resultados de Exámenes Médicos perteneciente a la compañía SaludPrimero S.A.">
 	<meta name="keywords" content="Muestras médicas,exámen médico,centro médico">
 	<meta name="author" content="Iván Mosquera">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Bienvenido a SaludPrimero S.A. - Inicia sesión</title>
 	<link href="stylesheets/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="stylesheets/font-awesome.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald" rel="stylesheet"> 
 	<style>
 		body {
+			background: url("Imagenes/ecocardiografia.jpg") no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			font-family: 'Oswald', sans-serif;
+		    -webkit-transition: background-image 2s ease-in-out;
+		    -moz-transition: background-image 2s ease-in-out;
+            -o-transition: background-image 2s ease-in-out;
+			transition: background-image 2s ease-in-out;
+
+			/*
 		    background-image: url("Imagenes/ecocardiografia.jpg");
 		    background-repeat: no-repeat;
 		    background-size: 100% 100%; 
 		    background-attachment: fixed;
-		    font-family: 'Roboto', sans-serif;
-		    /*font-family: 'Oswald', sans-serif;*/
-		    -webkit-transition: background-image 2s ease-in-out;
-			transition: background-image 2s ease-in-out;
+		    font-family: 'Roboto', sans-serif;*/
 
 		}
-		.container-fluid{
-			max-width: 60%;
+
+		.container{
 			margin-top: 8%
 		}
 		.img-circle{
 			width: 50px;
 		}
 		#titulo h1{
-    		font-size: 750%;
+    		font-size: 780%;
     		color: #428bca;
 		}
+
 		#principal{
 			margin-top: 80px;
 		}
 		#principal p{
-			color: ;
 			font-size: 180%;
 			font-weight: bold;
 		}
 		#formulario{
 			border: 1px solid gray;
 			background-color: white;
+			font-family: 'Open Sans', sans-serif;
+		}
+		@media screen and (max-width: 768px) {
+    	 .container{
+        	max-width: 80%
+    		}
+    		#titulo h1{
+    		font-size: 450%;
+			}
+			#principal{
+			text-align: center;
+			}
+			#principal p{
+			font-size: 150%;
+			font-weight: bold;
+			}
+
 		}
 		#formulario h3{
 			margin-bottom: 1px;
@@ -54,9 +81,9 @@
 	</style>
 </head>
 <body>
-	<div class="container-fluid">
+	<div class="container">
 	  <div class="row">
-	    <div class="col-md-12" id="titulo">
+	    <div class="col-xs-12 col-sm-12 col-md-12" id="titulo">
 	    	<h1 class="text-center">SaludPrimero S.A.</h1>
 	    </div>	
 	  </div>
@@ -65,7 +92,7 @@
 	    <div class="col-xs-12 col-sm-12 col-md-6">
 	    	<p>Nos esmeramos para ofrecerles asistencia médica de calidad y atención personalizada para cada persona. Proporcionamos las mejores prestaciones y los últimos avances técnicos en las principales especialidades médicas.</p>
 	    </div>
-		<div class="col-md-offset-1 col-xs-12 col-sm-12 col-md-5" id="formulario">
+		<div class="col-md-offset-1 col-xs-12 col-sm-offset-1 col-sm-10 col-sm-offset-1  col-md-5" id="formulario">
 	    	<form class="form-horizontal" method="post" action="index.html"  >
 	    	  <div class="form-group">
 			    <div class="col-sm-12">
