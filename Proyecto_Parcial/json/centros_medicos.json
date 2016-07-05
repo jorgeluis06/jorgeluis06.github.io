@@ -3,44 +3,44 @@
     "nombre": "HOSPITAL ALCÍVAR",
     "direccion": "Idelfonso Coronel y Mendez 2301, Guayaquil-Ecuador",
     "imagen": "Imagenes/hospital alcivar.jpg",
-    "examenes": "",
-    "horarios": "",
+    "examenes": ["HDL COLESTEROL","GASTRINA ","PAPANICOLAOU ","HEMOGLOBINA ","TRIGLICERIDOS"],
+    "horarios": "Lunes a Viernes de 7:30 a 21:00 y Sábados de 7:30 a 18:00 ",
     "galeria": "",
-    "ruta": ""
+    "ruta": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.837932743829!2d-79.89154538528571!3d-2.2147488379681906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6e4443c4b741%3A0x31556e724da1435d!2sHospital+Alc%C3%ADvar!5e0!3m2!1ses!2ses!4v1467699651532"
   },
   {
     "nombre": "APROFE",
     "direccion": "Sauces 8 Av. Gabriel Roldós y Av. Rodolfo Baquerizo Nazur, Guayaquil-Ecuador",
     "imagen": "Imagenes/aprofe.jpg",
-    "examenes": "",
-    "horarios": "",
+    "examenes": ["HDL COLESTEROL","GASTRINA ","PAPANICOLAOU ","HEMOGLOBINA ","TRIGLICERIDOS"],
+    "horarios": "Lunes a Viernes de 7:30 a 17:00 y Sábados de 7:30 a 13:00 ",
     "galeria": "",
-    "ruta": ""
+    "ruta": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.053816978191!2d-79.9061859852861!3d-2.133018937737398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6d421ed34437%3A0x83b5a9f9c705c5ab!2sAprofe!5e0!3m2!1ses!2ses!4v1467699813595"
   },
   {
     "nombre": "ECUASANITAS S.A.",
     "direccion": "Circunvalación Sur 816 e Higueras, Guayaquil, Ecuador",
     "imagen": "Imagenes/ecuasanitas.jpg",
-    "examenes": "",
-    "horarios": "",
+    "examenes": ["HDL COLESTEROL","GASTRINA ","PAPANICOLAOU ","HEMOGLOBINA ","TRIGLICERIDOS"],
+    "horarios": "Lunes a Viernes de 7:30 a 19:00 y Sábados de 8:00 a 14:00 ",
     "galeria": "",
-    "ruta": ""
+    "ruta": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.973527960811!2d-79.91517788528596!3d-2.1637753378229743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6d8ec8791489%3A0xfd3e870c9caca55a!2sEcuasanitas+Urdesa!5e0!3m2!1ses!2ses!4v1467700000124"
   },
   {
     "nombre": "HOSPITAL IEES",
     "direccion": "Av. 25 de Julio, Guayaquil-Ecuador",
     "imagen": "Imagenes/hospital iess.jpeg",
-    "examenes": "",
-    "horarios": "",
+    "examenes": ["HDL COLESTEROL","GASTRINA ","PAPANICOLAOU ","HEMOGLOBINA ","TRIGLICERIDOS"],
+    "horarios": "Lunes a Viernes de 7:00 a 18:00 y Sábados y Domingos de 7:00 a 13:00 ",
     "galeria": "",
-    "ruta": ""
+    "ruta": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.7898768284354!2d-79.90081788528556!3d-2.2325350380198676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6fc9f5ed6ed3%3A0x95e2541a7d82d070!2sHospital+de+Especialidades+-+Teodoro+Maldonado+Carbo!5e0!3m2!1ses!2ses!4v1467700116051"
   },
   {
     "nombre": "HOSPITAL RECOLETAS",
     "direccion": "Av. de San Julián, 1, 16002, Cuenca-Ecuador",
     "imagen": "Imagenes/recoletas.jpg",
-    "examenes": "",
-    "horarios": "",
+    "examenes": ["HDL COLESTEROL","GASTRINA ","PAPANICOLAOU ","HEMOGLOBINA ","TRIGLICERIDOS"],
+    "horarios": "Lunes a Viernes de 8:00 a 19:00 y Sábados de 8:00 a 13:00",
     "galeria": "",
     "ruta": ""
   },
@@ -48,8 +48,8 @@
     "nombre": "HOSPITAL ROBERTO GILBERT",
     "direccion": "Cdla Atarazana Av. Roberto Gilbert y Nicasio Safadi, Guayaquil-Ecuador",
     "imagen": "Imagenes/roberto_gilbert.jpg",
-    "examenes": "",
-    "horarios": "",
+    "examenes": ["HDL COLESTEROL","GASTRINA ","PAPANICOLAOU ","HEMOGLOBINA ","TRIGLICERIDOS"],
+    "horarios": "Lunes a Viernes de 7:30 a 20:00 y Sábados y Domingos de 7:30 a 14:00",
     "galeria": "",
     "ruta": ""
   },
@@ -57,8 +57,8 @@
     "nombre": "HOSPITAL VIRGEN DE LA LUZ",
     "direccion": "Hermandad Donantes de Sangre, 1, Cuenca-Ecuador",
     "imagen": "Imagenes/virgen_luz.jpg",
-    "examenes": "",
-    "horarios": "",
+    "examenes": ["HDL COLESTEROL","GASTRINA ","PAPANICOLAOU ","HEMOGLOBINA ","TRIGLICERIDOS"],
+    "horarios": "Lunes a Viernes de 7:00 a 18:00 y Sábados de 7:00 a 13:00",
     "galeria": "",
     "ruta": ""
   },
@@ -66,8 +66,8 @@
     "nombre": "CLÍNICA PANAMERICANA",
     "direccion": "Panamá 616 y Roca, Guayaquil-Ecuador",
     "imagen": "Imagenes/panamericana.jpg",
-    "examenes": "",
-    "horarios": "",
+    "examenes": ["HDL COLESTEROL","GASTRINA ","PAPANICOLAOU ","HEMOGLOBINA ","TRIGLICERIDOS"],
+    "horarios": "Lunes a Viernes de 7:30 a 20:00 y Sábados de 7:30 a 14:00",
     "galeria": "",
     "ruta": ""
   },
@@ -75,8 +75,8 @@
     "nombre": "SEMEDIC CENTRO MÉDICO",
     "direccion": "Urd. Circunvalación Sur 905 E/ Higueras e Ilanes, Guayaquil-Ecuador",
     "imagen": "Imagenes/semedic.jpeg",
-    "examenes": "",
-    "horarios": "",
+    "examenes": ["HDL COLESTEROL","GASTRINA ","PAPANICOLAOU ","HEMOGLOBINA ","TRIGLICERIDOS"],
+    "horarios": "Lunes a Viernes de 8:00 a 17:00 y Sábados de 9:00 a 14:00",
     "galeria": "",
     "ruta": ""
   },
@@ -84,8 +84,8 @@
     "nombre": "AXXIS HOSPITAL",
     "direccion": "Av.10 de Agosto N39-155 y Diguja, Quito-Ecuador",
     "imagen": "Imagenes/axxis.jpg",
-    "examenes": "",
-    "horarios": "",
+    "examenes": ["HDL COLESTEROL","GASTRINA ","PAPANICOLAOU ","HEMOGLOBINA ","TRIGLICERIDOS"],
+    "horarios": "Lunes a Viernes de 8:30 a 18:00 y Sábados de 8:30 a 13:00",
     "galeria": "",
     "ruta": ""
   },
@@ -93,8 +93,8 @@
     "nombre": "HOSPITAL METROPOLITANO",
     "direccion": "Avs. Mariana de Jesús y Nicolás Arteta, Quito-Ecuador",
     "imagen": "Imagenes/metropolitano.jpg",
-    "examenes": "",
-    "horarios": "",
+    "examenes": ["HDL COLESTEROL","GASTRINA ","PAPANICOLAOU ","HEMOGLOBINA ","TRIGLICERIDOS"],
+    "horarios": "Lunes a Viernes de 8:00 a 20:00 y Sábados de 8:00 a 14:00",
     "galeria": "",
     "ruta": ""
   },
@@ -102,9 +102,8 @@
     "nombre": "METRORED",
     "direccion": "Calle Pablo Arturo Suarez E6-112 y Antonio Navarro, Quito-Ecuador",
     "imagen": "Imagenes/metrored.jpg",
-    "examenes": "",
-    "horarios": "Lunes a Viernes de 7:30 a 19:30
-                 Sábado de 7:30 a 13:00 ",
+    "examenes": ["HDL COLESTEROL","GASTRINA ","PAPANICOLAOU ","HEMOGLOBINA ","TRIGLICERIDOS"],
+    "horarios": "Lunes a Viernes de 7:30 a 19:30 y Sábados de 7:30 a 13:00 ",
     "galeria": "",
     "ruta": ""
   },
@@ -112,9 +111,8 @@
     "nombre": "MEDIKAL",
     "direccion": "Av. Guillermo Pareja Rolando C.C. Garzocentro 2000, Guayaquil-Ecuador",
     "imagen": "Imagenes/medikal.jpg",
-    "examenes": "",
-    "horarios": "Lunes a Viernes de 7:30 a 19:30
-                 Sábado de 7:30 a 13:00 ",
+    "examenes": ["HDL COLESTEROL","GASTRINA ","PAPANICOLAOU ","HEMOGLOBINA ","TRIGLICERIDOS"],
+    "horarios": "Lunes a Viernes de 8:00 a 19:00 y Sábados de 8:00 a 13:00 ",
     "galeria": "",
     "ruta": ""
   },
@@ -122,9 +120,8 @@
     "nombre": "HOSPITAL CLÍNICA KENNEDY",
     "direccion": "Av. del Periodista y Callejón 11-A, N.O, Guayaquil-Ecuador",
     "imagen": "Imagenes/clinica_kennedy.jpg",
-    "examenes": "",
-    "horarios": "Lunes a Viernes de 7:30 a 19:30
-                 Sábado de 7:30 a 13:00 ",
+    "examenes": ["HDL COLESTEROL","GASTRINA ","PAPANICOLAOU ","HEMOGLOBINA ","TRIGLICERIDOS"],
+    "horarios": "Lunes a Viernes de 7:30 a 21:00 y Sábados y Domingos de 7:30 a 13:00 ",
     "galeria": "",
     "ruta": ""
   },
@@ -132,9 +129,8 @@
     "nombre": "HOSPITAL VOZANDES QUITO",
     "direccion": "Villalengua Oe2-37 y Av. 10 de Agosto, Quito-Ecuador",
     "imagen": "Imagenes/vozandes.JPG",
-    "examenes": "",
-    "horarios": "Lunes a Viernes de 7:30 a 19:30
-                 Sábado de 7:30 a 13:00 ",
+    "examenes": ["HDL COLESTEROL","GASTRINA ","PAPANICOLAOU ","HEMOGLOBINA ","TRIGLICERIDOS"],
+    "horarios": "Lunes a Viernes de 8:30 a 20:30 y Sábados de 8:30 a 13:00 ",
     "galeria": "",
     "ruta": ""
   },
@@ -142,9 +138,8 @@
     "nombre": "HOSPITAL DE LOS VALLES",
     "direccion": "Avs.Interoceánica Km.12 1/2 y Florencia en Cumbayá, Quito-Ecuador",
     "imagen": "Imagenes/hospital_valles.jpg",
-    "examenes": "",
-    "horarios": "Lunes a Viernes de 7:30 a 19:30
-                 Sábado de 7:30 a 13:00 ",
+    "examenes": ["HDL COLESTEROL","GASTRINA ","PAPANICOLAOU ","HEMOGLOBINA ","TRIGLICERIDOS"],
+    "horarios": "Lunes a Viernes de 7:30 a 19:30 y Sábados de 8:30 a 14:00 ",
     "galeria": "",
     "ruta": ""
   }
