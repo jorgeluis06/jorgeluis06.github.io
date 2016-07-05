@@ -1,0 +1,153 @@
+{"centros_medicos": [
+  {
+    "nombre": "HOSPITAL ALCÍVAR",
+    "direccion": "Idelfonso Coronel y Mendez 2301, Guayaquil-Ecuador",
+    "imagen": "Imagenes/hospital alcivar.jpg",
+    "examenes": "",
+    "horarios": "",
+    "galeria": "",
+    "ruta": ""
+  },
+  {
+    "nombre": "APROFE",
+    "direccion": "Sauces 8 Av. Gabriel Roldós y Av. Rodolfo Baquerizo Nazur, Guayaquil-Ecuador",
+    "imagen": "Imagenes/aprofe.jpg",
+    "examenes": "",
+    "horarios": "",
+    "galeria": "",
+    "ruta": ""
+  },
+  {
+    "nombre": "ECUASANITAS S.A.",
+    "direccion": "Circunvalación Sur 816 e Higueras, Guayaquil, Ecuador",
+    "imagen": "Imagenes/ecuasanitas.jpg",
+    "examenes": "",
+    "horarios": "",
+    "galeria": "",
+    "ruta": ""
+  },
+  {
+    "nombre": "HOSPITAL IEES",
+    "direccion": "Av. 25 de Julio, Guayaquil-Ecuador",
+    "imagen": "Imagenes/hospital iess.jpeg",
+    "examenes": "",
+    "horarios": "",
+    "galeria": "",
+    "ruta": ""
+  },
+  {
+    "nombre": "HOSPITAL RECOLETAS",
+    "direccion": "Av. de San Julián, 1, 16002, Cuenca-Ecuador",
+    "imagen": "Imagenes/recoletas.jpg",
+    "examenes": "",
+    "horarios": "",
+    "galeria": "",
+    "ruta": ""
+  },
+  {
+    "nombre": "HOSPITAL ROBERTO GILBERT",
+    "direccion": "Cdla Atarazana Av. Roberto Gilbert y Nicasio Safadi, Guayaquil-Ecuador",
+    "imagen": "Imagenes/roberto_gilbert.jpg",
+    "examenes": "",
+    "horarios": "",
+    "galeria": "",
+    "ruta": ""
+  },
+  {
+    "nombre": "HOSPITAL VIRGEN DE LA LUZ",
+    "direccion": "Hermandad Donantes de Sangre, 1, Cuenca-Ecuador",
+    "imagen": "Imagenes/virgen_luz.jpg",
+    "examenes": "",
+    "horarios": "",
+    "galeria": "",
+    "ruta": ""
+  },
+  {
+    "nombre": "CLÍNICA PANAMERICANA",
+    "direccion": "Panamá 616 y Roca, Guayaquil-Ecuador",
+    "imagen": "Imagenes/panamericana.jpg",
+    "examenes": "",
+    "horarios": "",
+    "galeria": "",
+    "ruta": ""
+  },
+  {
+    "nombre": "SEMEDIC CENTRO MÉDICO",
+    "direccion": "Urd. Circunvalación Sur 905 E/ Higueras e Ilanes, Guayaquil-Ecuador",
+    "imagen": "Imagenes/semedic.jpeg",
+    "examenes": "",
+    "horarios": "",
+    "galeria": "",
+    "ruta": ""
+  },
+  {
+    "nombre": "AXXIS HOSPITAL",
+    "direccion": "Av.10 de Agosto N39-155 y Diguja, Quito-Ecuador",
+    "imagen": "Imagenes/axxis.jpg",
+    "examenes": "",
+    "horarios": "",
+    "galeria": "",
+    "ruta": ""
+  },
+  {
+    "nombre": "HOSPITAL METROPOLITANO",
+    "direccion": "Avs. Mariana de Jesús y Nicolás Arteta, Quito-Ecuador",
+    "imagen": "Imagenes/metropolitano.jpg",
+    "examenes": "",
+    "horarios": "",
+    "galeria": "",
+    "ruta": ""
+  },
+  {
+    "nombre": "METRORED",
+    "direccion": "Calle Pablo Arturo Suarez E6-112 y Antonio Navarro, Quito-Ecuador",
+    "imagen": "Imagenes/metrored.jpg",
+    "examenes": "",
+    "horarios": "Lunes a Viernes de 7:30 a 19:30
+                 Sábado de 7:30 a 13:00 ",
+    "galeria": "",
+    "ruta": ""
+  },
+  {
+    "nombre": "MEDIKAL",
+    "direccion": "Av. Guillermo Pareja Rolando C.C. Garzocentro 2000, Guayaquil-Ecuador",
+    "imagen": "Imagenes/medikal.jpg",
+    "examenes": "",
+    "horarios": "Lunes a Viernes de 7:30 a 19:30
+                 Sábado de 7:30 a 13:00 ",
+    "galeria": "",
+    "ruta": ""
+  },
+  {
+    "nombre": "HOSPITAL CLÍNICA KENNEDY",
+    "direccion": "Av. del Periodista y Callejón 11-A, N.O, Guayaquil-Ecuador",
+    "imagen": "Imagenes/clinica_kennedy.jpg",
+    "examenes": "",
+    "horarios": "Lunes a Viernes de 7:30 a 19:30
+                 Sábado de 7:30 a 13:00 ",
+    "galeria": "",
+    "ruta": ""
+  },
+  {
+    "nombre": "HOSPITAL VOZANDES QUITO",
+    "direccion": "Villalengua Oe2-37 y Av. 10 de Agosto, Quito-Ecuador",
+    "imagen": "Imagenes/vozandes.JPG",
+    "examenes": "",
+    "horarios": "Lunes a Viernes de 7:30 a 19:30
+                 Sábado de 7:30 a 13:00 ",
+    "galeria": "",
+    "ruta": ""
+  },
+  {
+    "nombre": "HOSPITAL DE LOS VALLES",
+    "direccion": "Avs.Interoceánica Km.12 1/2 y Florencia en Cumbayá, Quito-Ecuador",
+    "imagen": "Imagenes/hospital_valles.jpg",
+    "examenes": "",
+    "horarios": "Lunes a Viernes de 7:30 a 19:30
+                 Sábado de 7:30 a 13:00 ",
+    "galeria": "",
+    "ruta": ""
+  }
+
+
+]}
