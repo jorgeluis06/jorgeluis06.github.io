@@ -1,0 +1,28 @@
+{"examenes": [
+  {
+    "tipo": "Biometría",
+    "fecha": "01/06/2016",
+    "estado": "Ver resultados del examen"
+  },
+  {
+    "tipo": "Urología",
+    "fecha": "11/06/2016",
+    "estado": "La muestra está en proceso de análisis"
+  },
+  {
+    "tipo": "Parisatario",
+    "fecha": "30/05/2016",
+    "estado": "Ver resultados del examen"
+  },
+  {
+    "tipo": "Hemoglobina",
+    "fecha": "27/06/2016",
+    "estado": "Recién se ha ingresado al sistema"
+  },
+  {
+    "tipo": "Orina",
+    "fecha": "02/07/2016",
+    "estado": "Recién se ha ingresado al sistema"
+  }
+
+]}

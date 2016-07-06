@@ -100,9 +100,68 @@
           </div>
 
           <div id="examenes">
+            <table class="table table-striped">
+              <tr>
+                <th>Tipo de exámen</th>
+                <th>Fecha de toma de exámen</th>
+                <th>Estado del exámen</th>
+              </tr>
+            </table>
           </div>
 
           <div id="datos">
+            <form class="form-horizontal" >
+
+              <div class="form-group" id="datos_nombres">
+                <label for="inputNombre" class="col-sm-offset-1 col-sm-2 control-label">Nombres:</label>
+                <div class="col-sm-7">
+                  <!--input type="text" class="form-control" id="inputNombre" placeholder="Email"-->
+                </div>
+              </div>
+
+              <div class="form-group" id="datos_apellidos">
+                <label for="inputApellido" class="col-sm-offset-1 col-sm-2 control-label">Apellidos:</label>
+                <div class="col-sm-7">
+                </div>
+              </div>
+
+              <div class="form-group" id="datos_cedula">
+                <label for="inputCedula" class="col-sm-offset-1 col-sm-2 control-label">Cédula:</label>
+                <div class="col-sm-7">
+                </div>
+              </div>
+
+              <div class="form-group" id="datos_correo">
+                <label for="inputCorreo" class="col-sm-offset-1 col-sm-2 control-label">Correo electrónico:</label>
+                <div class="col-sm-7">
+                </div>
+              </div>
+
+              <div class="form-group" id="datos_direccion">
+                <label for="inputDireccion" class="col-sm-offset-1 col-sm-2 control-label">Dirección:</label>
+                <div class="col-sm-7">
+                </div>
+              </div>
+
+              <div class="form-group" id="datos_telefonos">
+                <label for="inputTelefono" class="col-sm-offset-1 col-sm-2 control-label">Teléfonos:</label>
+                <div class="col-sm-7">
+                </div>
+              </div>
+
+              <div class="form-group" id="foto_perfil">
+                <label for="inputTelefono" class="col-sm-offset-1 col-sm-2 control-label">Foto de perfil:</label>
+                <div class="col-sm-7">
+                  <input type="file" name="imagen" id="imagen" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="col-sm-offset-5 col-sm-7">
+                  <button type="submit" class="btn btn-primary btn-lg" id="btn_guardar">Guardar</button>
+                </div>
+              </div>
+            </form>          
           </div>
         </div>
       </div>
