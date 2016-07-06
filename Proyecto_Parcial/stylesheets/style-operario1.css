@@ -76,7 +76,7 @@ main {
 main .content {
     padding: 30px 10px 30px 10px;
     border-radius: 0 5px 5px 5px;
-    background: #84AED3;
+    background: #eee;
 }
 
 main .content li {
@@ -215,9 +215,6 @@ fieldset input, fieldset select, fieldset label {
 fieldset label {
     text-align: right;
 }
-#muestra-nueva {
-	margin-left: 300px;
-}
 
 .table-responsive td,.table-responsive th {
    text-align: center;   
@@ -231,16 +228,25 @@ fieldset label {
 
 
 #muestra-nueva {
+	margin-left: 300px;
+	padding-left: 40px;
   display: none;
+  background-color: #84AED3;
+  margin-right: 300px;
+  padding-bottom: 20px;
+  border: 1px solid;
 }
 
 #muestra {
   display: block;
+  background-color: #84AED3;
+  margin-bottom: 20px;
 }
 
 .btn-lg {
 	margin-left: 50px;
 	margin-top: 20px;
 }
-
-
+.pull-right{
+	margin-top: 8px;
+}
