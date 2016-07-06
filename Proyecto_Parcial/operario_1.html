@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>SaludPrimero S.A.</title>
+    <link href="stylesheets/style-operario1.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'> 
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/javascripts/bootstrap.min.js"></script>   
+  </head>
+
+  <body>
+  <div class="row">
+    <nav class="col-xs-2 col-sm-2 col-md-2">
+      <div id="barra-lateral">
+        <div id="logo-menu">
+          <i class="fa fa-bars fa-3x" id="icono_menu" aria-hidden="true"></i>
+        </div>
+        <div id="contenedor-logos-primero" class="contenedor-logos">
+          <a href="#">Inicio</a>
+          <!--p class="title-menu">Home</p-->
+        </div>
+
+        <div class="contenedor-logos">
+          <a href="#">Nosotros</a>
+          <!--p class="title-menu">Videos</p-->
+        </div>
+
+        <div class="contenedor-logos">
+          <a href="#">Servicios</a>
+          <!--p class="title-menu">Noticias</p-->
+        </div>
+
+        <div class="contenedor-logos">
+          <a href="#">Contáctenos</a>
+          <!--p class="title-menu">Nosotros</p-->
+        </div>
+      </div>
+    </nav>
+  	
+    <header class="col-xs-10 col-sm-10 col-md-10">
+      <div class="container">
+        <h1>SALUD PRIMERO S.A.</h1>
+        <div class="info">
+        	<img src="Imagenes\perfil.jpg" class="img-circle" alt="Imagen de Perfil">
+        	<button type="button" class="btn btn-link">Juan Pérez Alvarado</button>
+          	<button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-question-sign">
+          	</span></button>
+          	<a href="login.html">Salir</a> 
+        </div>
+      </div>
+    </header>
+  </div>
+    <main>
+      <div class="container">
+        <div class="tabs">
+          <a href=""><span class="active">Muestras</span></a>
+        </div>
+        <div class="content">
+          <div id="muestra" class="active">
+            <div class="table-responsive">
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Paciente</th>
+                    <th>Centro Médico</th>
+                    <th>Exámenes a realizar</th>
+                    <th>Laboratorio</th>
+                    <th>Reporte</th>
+                    <th> </th>
+                  </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+              </table>
+            </div>
+            <div class="pull-right">
+              <label>Agregar una Muestra</label>
+              <button type="button" class="btn btn-success btn-md" title="Agregar"><span class="glyphicon glyphicon-plus"></span></button>
+            </div>
+          </div>
+    			<div id="muestra-nueva">
+            <fieldset>
+
+              <h2 class="title-content">Registrar muestra nueva</h2>          
+              <p>
+                <label id="txt-pte">Paciente: </label>
+                <input type="text" class="form-control" placeholder="Paciente"/>
+              </p>
+              <p>
+                <label>Centro Médico: </label>
+                <select class="form-control" id="centro-medico">
+                  <option selected="selected">Centro Médico 1</option>
+                  <option>Centro Médico 2</option>
+                  <option>Centro Médico 3</option>
+                </select>
+              </p>
+              <p>
+              <label>Examen a realizar: </label>
+                <select class="form-control" id="examen">
+                  <option selected="selected">Examen 1</option>
+                  <option>Examen 2</option>
+                  <option>Examen 3</option>
+                </select>
+              </p>
+              <p>
+              <label>Laboratorio: </label>
+                <select class="form-control" id="laboratorio">
+                  <option selected="selected">Laboratorio 1</option>
+                  <option>Laboratorio 2</option>
+                  <option>Laboratorio 3</option>
+                </select>
+              </p>
+            </fieldset>
+            <button type="button" class="btn btn-danger btn-lg"><span class="glyphicon glyphicon-remove"></span> Cancelar</button>
+            <button type="button" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-floppy-disk"></span> Guardar</button>
+    			</div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="text-right">
+      <i class="fa fa-copyright" aria-hidden="true"></i>
+      <label><small>2016 Todos los derechos reservados</small></label>
+    </footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="javascripts/operario.js"></script>
+  </body>
+</html>
