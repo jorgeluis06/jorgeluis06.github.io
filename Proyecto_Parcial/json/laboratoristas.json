@@ -1,0 +1,20 @@
+{"laboratoristas": [
+  {
+  	"nombre": "Jorge Rodríguez Castañeda",
+  	"usuario": "jlrc",
+  	"clave": "1234",
+    "imagen": "",
+    "pacientes": ["María Mosquera","Pedro Goméz ","Juan Peréz ","Ana Cueva "],
+    "centros_medicos": ["HOSPITAL ALCÍVAR","APROFE","ECUASANITAS S.A.","HOSPITAL IEES"],
+    "examenes": ["HDL COLESTEROL","GASTRINA","PAPANICOLAOU","TRIGLICERIDOS"]
+  },
+  {
+  	"nombre": "Ivan Mosquera",
+  	"usuario": "ivan",
+  	"clave": "1234",
+    "imagen": "",
+    "pacientes": ["José Mosquera","Jorge Goméz ","Julia Peréz ","Kerly Cueva "],
+    "centros_medicos": ["HOSPITAL ALCÍVAR","APROFE","ECUASANITAS S.A.","HOSPITAL IEES"],
+    "examenes": ["HDL COLESTEROL","PAPANICOLAOU","HEMOGLOBINA","TRIGLICERIDOS"]
+  }
+ ]}
