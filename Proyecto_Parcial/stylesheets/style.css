@@ -21,8 +21,8 @@ header {
   font-style: italic;
 }
 
-#info{
-  font-size: 2.5em;
+.info{
+  font-size: 1em;
 }
 
 
@@ -93,8 +93,8 @@ main {
 
 
 .img-circle {
-	width: 70px;
-	height: 70px;
+  width: 70px;
+  height: 70px;
 }
 
 
@@ -141,12 +141,88 @@ div.contenedor-logos{
   
 }
 
+a.thumbnail{
+  background-color: #84AED3;
+}
+
 main .container {
   max-width: 100px
   margin-left: 300px;
 }
 
-@media screen and (max-width: 768px) {
 
+#detalles{
+  background-color: #84AED3;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
 
+#nombre_hospital h2{
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: bold;
+  /*color: #18334A;*/
+  color: #1B3953;
+} 
+#detalles div div:nth-child(2),#detalles div div:nth-child(3){
+  line-height: 2.5em;
+  float: left;
+}
+#detalles div div label{   
+  display: block;
+  font-size: 1.2em;
+}
+#detalles div div:nth-child(2),#detalles div div:nth-child(4){
+  
+  color: #1B3953;
+}
+#detalles div div:nth-child(3){
+
+}
+
+/*ESTILOS APLICADOS PARA DISPOSITIVOS PEQUEÑOS*/
+  @media screen and (max-width: 768px) {
+    .container h1{
+      font-size: 2.8em;
+    }
+
+    .info{
+      margin-top: 20px;
+      font-size: 0.7em;
+    }
+    .tabs a span {
+        width: 70px;
+        font-size: 0.8em;
+    }
+    .embed-container {
+        position: relative;
+        padding-bottom: 100%;
+        height: 0;
+        overflow: hidden;
+    }
+    .embed-container iframe {
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    #detalles div div:nth-child(2),#detalles div div:nth-child(3){
+      line-height: 2.5em;
+
+    }
+    #detalles div div label{   
+      display: block;
+      font-size: 0.8em;
+    }
+    #detalles div div:nth-child(2),#detalles div div:nth-child(4){ 
+      color: #1B3953;
+    }
+    #detalles div div:nth-child(3){
+
+    } 
 }

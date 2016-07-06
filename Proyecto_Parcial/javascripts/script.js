@@ -5,9 +5,10 @@ var main = function(){
 	//var url = "test.json";
 	
 	$.getJSON(url, function(respuesta){
-		//console.log(respuesta);
+		console.log(respuesta);
 		
 		respuesta.centros_medicos.forEach(function(item){
+			$("#detalles").hide();
 			var $div = $("<div></div>");
 			var $a = $("<a></a>");
 			var $img = $("<img>");
@@ -20,9 +21,21 @@ var main = function(){
 			$div.append($a);
 			$("#centromedico .row").append($div);
 			//$img.fadeIn();
+			$img.click(function(){
+				$("#centromedico").hide();
+				$("#detalles").show();
+				//var $h2 = $("<h2></h2>");
+				//$h2.text(item.nombre);
+				$("#nombre_hospital h2").text(item.nombre);
+				$("#detalles .row div:nth-child(3) label:nth-child(1)").text(item.direccion);
+				$("#detalles .row div:nth-child(3) label:nth-child(2)").text(item.horarios);
+				$("#detalles .row div:nth-child(4) iframe").attr("src", item.ruta);
+		    	//console.log(nombre);
+	        });
 		})
 	});
-	//console.log("Practica");
+
+
 }
 
 $(document).ready(main);
