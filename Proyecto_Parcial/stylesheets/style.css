@@ -270,9 +270,6 @@ a.thumbnail:hover{
     #detalles div div:nth-child(2),#detalles div div:nth-child(4){ 
       color: #1B3953;
     }
-    #detalles div div:nth-child(2) label,#detalles div div:nth-child(3) label,#detalles div div:nth-child(4) label{ 
-    font-size: 0.5em;
-    }
     #detalles div div:nth-child(3){
 
     } 

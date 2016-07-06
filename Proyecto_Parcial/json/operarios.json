@@ -1,0 +1,18 @@
+{"operarios": [
+  {
+  	"nombre": "Armando Castañeda",
+  	"usuario": "armc",
+  	"clave": "1234",
+    "imagen": "",
+    "sucursal": "",
+    "laboratoristas":""
+  },
+  {
+    "nombre": "Luis García",
+    "usuario": "lgaa",
+    "clave": "1234",
+    "imagen": "",
+    "sucursal": "",
+    "laboratoristas":""
+  }
+ ]}

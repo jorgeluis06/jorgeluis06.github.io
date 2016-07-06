@@ -4,6 +4,8 @@
     });
 	
 function init(){
+	agregarCentrosMedicos();
+	cargarOperario();
 	$( ".pull-right" ).on( "click" ,cambiarPestana);
 	$( ".btn-danger" ).on( "click" ,pestanaMuestraNueva);
 	$( ".btn-success" ).on( "click" ,agregarMuestra);
@@ -36,6 +38,33 @@ function pestanaMuestraNueva(){
 	$("#muestra").css("display","block");
 	$("#muestra-nueva").css("display","none");
 }
+
+function agregarCentrosMedicos(){
+	var url = "json/centros_medicos.json";
+	$.getJSON(url, function(respuesta){
+		console.log(respuesta);
+		respuesta.centros_medicos.forEach(function(item){
+			var $option = $("<option></option>");
+			$option.text(item.nombre);
+			$("#centro-medico").append($option);
+		})
+
+	});
+}
+
+function cargarOperario(){
+	var url = "json/operarios.json";
+
+	//$.getJSON(url, funcion);
+	//var url = "test.json";
+	
+	$.getJSON(url, function(respuesta){
+		console.log(respuesta);
+		$("#user").text(respuesta.operarios[0].nombre);
+
+	});
+}
+
 
 
 
