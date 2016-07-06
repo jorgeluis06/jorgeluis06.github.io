@@ -101,8 +101,8 @@ main {
 
 
 .img-circle {
-	width: 70px;
-	height: 70px;
+  width: 70px;
+  height: 70px;
 }
 
 .info {
@@ -228,8 +228,8 @@ fieldset label {
 
 
 #muestra-nueva {
-	margin-left: 300px;
-	padding-left: 40px;
+  margin-left: 300px;
+  padding-left: 40px;
   display: none;
   background-color: #84AED3;
   margin-right: 300px;
@@ -244,9 +244,9 @@ fieldset label {
 }
 
 .btn-lg {
-	margin-left: 50px;
-	margin-top: 20px;
+  margin-left: 50px;
+  margin-top: 20px;
 }
 .pull-right{
-	margin-top: 8px;
+  margin-top: 8px;
 }
