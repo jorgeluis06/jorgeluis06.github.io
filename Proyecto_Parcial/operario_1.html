@@ -2,20 +2,23 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SaludPrimero S.A.</title>
+    <link href="stylesheets/style.css" rel="stylesheet" type="text/css">
     <link href="stylesheets/style-operario1.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'> 
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="stylesheets/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/javascripts/bootstrap.min.js"></script>   
   </head>
 
   <body>
   <div class="row">
-    <nav class="col-xs-2 col-sm-2 col-md-2">
+    <nav class="col-xs-2 col-sm-2 col-md-0">
       <div id="barra-lateral">
         <div id="logo-menu">
           <i class="fa fa-bars fa-3x" id="icono_menu" aria-hidden="true"></i>
@@ -42,15 +45,21 @@
       </div>
     </nav>
   	
-    <header class="col-xs-10 col-sm-10 col-md-10">
+    <header class="col-xs-10 col-sm-10 col-md-12">
       <div class="container">
-        <h1>SALUD PRIMERO S.A.</h1>
-        <div class="info">
-        	<img src="Imagenes\perfil.jpg" class="img-circle" alt="Imagen de Perfil">
-        	<button type="button" class="btn btn-link">Juan Pérez Alvarado</button>
-          	<button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-question-sign">
-          	</span></button>
-          	<a href="login.html">Salir</a> 
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-7">
+            <h1>SALUD PRIMERO S.A.</h1> 
+          </div>
+
+          <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-4 info">
+            <img src="Imagenes\perfil.jpg" class="img-circle" alt="Imagen de Perfil">
+            <!--button type="button" class="btn btn-link">Juan Pérez Alvarado</button-->
+            <label>Juan Pérez Alvarado</label>
+              <button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-question-sign">
+              </span></button>
+              <a href="login.html">Salir</a> 
+          </div>
         </div>
       </div>
     </header>
@@ -79,7 +88,7 @@
                 </tbody>
               </table>
             </div>
-            <div class="pull-right">
+            <div class="col-xs-12 col-sm-12 col-md-offset-9 col-md-3 pull-right">
               <label>Agregar una Muestra</label>
               <button type="button" class="btn btn-success btn-md" title="Agregar"><span class="glyphicon glyphicon-plus"></span></button>
             </div>
